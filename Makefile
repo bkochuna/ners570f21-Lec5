@@ -1,7 +1,7 @@
 OBJ = bkochuna.o \
       bkjeon.o
 all: main
-	
+
 .c.o: 
 	echo gcc -c $< -o $@
 	cp $< $@
