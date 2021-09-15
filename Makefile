@@ -1,5 +1,6 @@
 OBJ = bkochuna.o \
 bkjeon.o
+mkomaiha.o
 
 all: main
 
