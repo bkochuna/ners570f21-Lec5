@@ -1,6 +1,15 @@
-bkochuna.o: bkochuna.c
-	echo gcc -c bkochuna.c -o bkochuna.o
-	cp bkochuna.c bkochuna.o
+OBJ = bkochuna.o \
+bkjeon.o
+
+all: main
+
+.c.o: 
+	echo gcc -c $< -o $@
+	cp $< $@
+
+main: $(OBJ)
+	echo gcc $(OBJ) -o main.exe
 
 clean:
 	rm -rf *.o
+
