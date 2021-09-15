@@ -1,3 +1,3 @@
-bkochuna.o: bkochuna.c
-	echo gcc -c bkochuna.c -o bkochuna.o
-	cp bkochuna.c bkochuna.o
+bkjeon.o: bkjeon.c
+	echo gcc -c bkjeon.c -o bkjeon.o
+	cp bkjeon.c bkjeon.o
